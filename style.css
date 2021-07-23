@@ -8,12 +8,12 @@ html{
 }
 a{
     text-decoration: none;
+    transition: all .3s ease-out;
 }
-.hoverable:hover{
+a:hover{
     cursor: pointer;
     color: #a660c4;
-    transform: translate(20px 0px);
-    transition-duration: 0.25s;
+    transform: translate(2px, 2px);
 
 }
 
